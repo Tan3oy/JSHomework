@@ -53,7 +53,7 @@ start: (text) => {
         pClass.classList.remove('unstretched');
         }
     pClass.classList.add('stretched');
-    setTimeout(() => typed.write(text), 1000);
+    setTimeout(() => typed.write(text), 800);
     }    
 }
 }
